@@ -10,7 +10,7 @@ body {
 
   span {
     font-size: 70px; 
-    color: rgb(173, 75, 165);
+    color: rgb(11, 131, 230);
   }
   
   p {
@@ -41,7 +41,7 @@ body {
   /* Sections */
   
   .colored-section {
-    background-color: #382427;
+    background-color: hsl(109, 47%, 33%);
     color: #fff;
   }
   
@@ -59,6 +59,11 @@ body {
     font-family: "Ubuntu";
     font-size: 2.5rem;
     font-weight: bold;
+  }
+
+  .navbar-brand:hover {
+    /* color: hsl(196, 88%, 49%); */
+    background: hsl(210, 2%, 26%);
   }
   
   .nav-item {
@@ -79,9 +84,9 @@ body {
   /* Title Section */
   
   #title {
-    /* background-color: #ff4c68; */
-    background-color: #382427;
-    color: #fff;
+    /* background-color: hsl(108, 22%, 18%); */
+    background-color: hsl(109, 47%, 33%);
+    color: #ba9c9c;
     text-align: left;
   }
   
