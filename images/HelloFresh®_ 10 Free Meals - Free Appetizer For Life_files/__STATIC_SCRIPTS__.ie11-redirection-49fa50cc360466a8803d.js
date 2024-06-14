@@ -1,0 +1,1 @@
+(()=>{"use strict";var o;try{Boolean(-1!==navigator.userAgent.indexOf("MSIE")||navigator.appVersion.indexOf("Trident/")>-1)&&!Boolean("/browser-support"===window.location.pathname)&&(o=window.location.origin,window.location.replace(o+"/browser-support"))}catch(o){console.log("error while redirecting to user support page",o)}})();
