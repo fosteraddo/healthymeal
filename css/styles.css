@@ -8,21 +8,18 @@ body {
     font-family: "Montserrat-Bold";
   }
 
-  span {
-    font-size: 70px; 
-    color: rgb(11, 131, 230);
+  #icons {
+    font-size: 20px;
+    display: flex;
   }
   
   p {
     color: #8f8f8f;
   }
   
-  /* Headings */
-  /* .about-section {
-    color: ;
-  } */
   .big-heading {
     font-family: "Montserrat-Black";
+    color: #cfdeeb;
     font-size: 3.5rem;
     line-height: 1.5;
   }
@@ -55,15 +52,16 @@ body {
     padding: 0 0 4.5rem;
   }
   
-  .navbar-brand {
+  .navbar-brand #title{
     font-family: "Ubuntu";
     font-size: 2.5rem;
     font-weight: bold;
   }
 
   .navbar-brand:hover {
-    /* color: hsl(196, 88%, 49%); */
-    background: hsl(210, 2%, 26%);
+    color: hsl(144, 90%, 42%);
+    transform: scale(1.2) rotate(-2deg);
+    transition: 1s;
   }
   
   .nav-item {
@@ -84,9 +82,8 @@ body {
   /* Title Section */
   
   #title {
-    /* background-color: hsl(108, 22%, 18%); */
     background-color: hsl(109, 47%, 33%);
-    color: #ba9c9c;
+    color: #cfdeeb;
     text-align: left;
   }
   
@@ -133,8 +130,9 @@ body {
   
   .icon:hover {
     color: #0fb2ed;
-    /* background: linear-gradient(to right, #11999E, #8f747d, #ffad06 ); */
-  
+    transform: scale(1.2) rotate(35deg);
+    transition: 1s;
+    width: 50%;
   }
   
   /* Testimonial Section */
@@ -206,6 +204,14 @@ body {
 
   .title-image:hover{
     transform: rotate(25deg);
+    transition: 1s;
+    width: 50%;
+  }
+
+
+  .icon:hover {
+    color: #0fb2ed;
+    transform: scale(1.2) rotate(35deg);
     transition: 1s;
     width: 50%;
   }
