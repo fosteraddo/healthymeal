@@ -6,7 +6,7 @@ body {
   
   h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat-Bold";
-    line-height: 4;
+    line-height: 2;
   }
 
   #icons {
@@ -117,13 +117,13 @@ body {
   }
 
   .feature-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     color: #01073f;
   }
 
   .feature-title:hover{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bolder;
     color: #061279;
     transform: scale(1.2) rotate(2deg);
@@ -186,7 +186,6 @@ body {
     transform: scale(1.2) rotate(-12deg);
     transition: 1s;
   }
- 
   
   /* Pricing Section */
   
