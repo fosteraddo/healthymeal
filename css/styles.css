@@ -6,6 +6,7 @@ body {
   
   h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat-Bold";
+    line-height: 4;
   }
 
   #icons {
@@ -14,7 +15,7 @@ body {
   }
   
   p {
-    color: #8f8f8f;
+    color: #030202;
   }
   
   .big-heading {
@@ -114,9 +115,20 @@ body {
   #features {
     position: relative;
   }
-  
+
   .feature-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #01073f;
+  }
+
+  .feature-title:hover{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #061279;
+    transform: scale(1.2) rotate(2deg);
+    transition: 1s;
+
   }
   
   .feature-box {
@@ -153,6 +165,9 @@ body {
     margin: 20px;
   }
   
+  .bolder {
+    font-weight: bolder;
+  }
   
   #press {
     /* background-color: #ef8172; */
@@ -164,6 +179,14 @@ body {
     width: 15%;
     margin: 20px 20px 50px;
   }
+
+  .press-logo:hover {
+    width: 15%;
+    margin: 20px 20px 50px;
+    transform: scale(1.2) rotate(-12deg);
+    transition: 1s;
+  }
+ 
   
   /* Pricing Section */
   
@@ -180,8 +203,6 @@ body {
     padding: 3% 2%;
   }
   
-  /* CTA Section */
-  
   
   /* Footer Section */
   
@@ -189,8 +210,13 @@ body {
   .social-icon {
     margin: 20px 10px;
   }
+
+  /* Media queries */
   
   @media (max-width: 1028px) {
+    p {
+      font-size: 1.5rem;
+    }
   
     #title {
       text-align: center;
@@ -207,7 +233,6 @@ body {
     transition: 1s;
     width: 50%;
   }
-
 
   .icon:hover {
     color: #0fb2ed;
